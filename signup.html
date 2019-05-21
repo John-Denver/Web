@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-4.3.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" style="height: 180px"></div>
+            <div class="row">
+                <div class="col_sm_4"style="width: 400px" ></div>
+                <div class="col_sm_4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><center><h3>Signup</h3></center></div>
+                        <div class="panel-body">
+                            <form  name="sign-up" method="POST" action="signup.php">
+
+                                <div class="form-group">
+                                    <input type="text" name="fname" class="form-control" placeholder="firstname">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="lname" class="form-control" placeholder="lastname">
+                                </div>
+                                <div class="form-group">
+                                   <select name="gender" class="form-control" name="gender" required>
+                                       <option value="">Gender....</option>
+                                       <option value="Male">Male</option>
+                                       <option value="Female">Female</option>
+                                       <option value="Others">Others</option>
+                                   </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="age">age</label>
+                                    <input type="number" name="age" class="form-control">
+                                </div>
+                            
+                            <input type="submit" name="submit" value="Signup" 
+                            class="btn btn-success" style="width: 320px;">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_sm_4"></div>
+            </div>
+        </div>
+    </body>
+</html>
