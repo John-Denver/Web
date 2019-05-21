@@ -43,7 +43,7 @@
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
-                                                <label>Cost</label>
+                                                <label>Money</label>
                                                 <input type="text" class="form-control"  value="<?php echo$pcost?>" name="cost"> 
                                             </div>
                                         </div>     
